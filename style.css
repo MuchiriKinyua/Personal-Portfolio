@@ -9,7 +9,7 @@ html{
 }
 body{
     background: #080808;
-    color: #fff;
+    color: #4b0b94;
 }
 #header{
     width: 100%;
@@ -70,7 +70,7 @@ nav ul li a::after{
     content: "";
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #371b9e;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -116,7 +116,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #3213b8;
 }
 .row{
     display: flex;
@@ -136,7 +136,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #3e1dcf;
 }
 .tab-titles{
     display: flex;
@@ -153,7 +153,7 @@ nav ul li a:hover::after{
     content: "";
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #1333c5;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -167,7 +167,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #1224c4;
     font-size: 14px;
 }
 .tab-contents{
@@ -213,7 +213,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #1215aa;
     transform: translateY(-10px);
 }
 
@@ -388,6 +388,11 @@ form .btn2{
 }
 .copyright i{
     color: red;
+}
+
+#contact a {
+    color: white; /* Makes the links white */
+    text-decoration: none; /* Removes underline */
 }
 
 /*css for small screens*/
